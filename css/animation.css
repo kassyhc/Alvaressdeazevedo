@@ -1,0 +1,26 @@
+
+  .animation{
+    width: auto;
+    max-width: 355px;
+  }
+  .animation:hover {
+    animation: imageAnimation 10s infinite;
+  }
+  
+  @keyframes imageAnimation {
+    0% {
+      background-image: url('../Img/Book_Animation/1.png');
+    }
+    25% {
+        background-image: url('../Img/Book_Animation/2.png');
+    }
+    50% {
+        background-image: url('../Img/Book_Animation/3.png');
+    }
+    75% {
+        background-image: url('../Img/Book_Animation/4.png');
+    }
+    100% {
+        background-image: url('../Img/Book_Animation/1.png');
+    }
+  }

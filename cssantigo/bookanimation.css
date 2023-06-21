@@ -1,0 +1,35 @@
+@keyframes passar{
+    0%{
+        background-image: url('../img/Book_Animation/');   
+    }
+    10%{
+        background-image: url('../img/2.png');
+    }
+    20%{
+        background-image: url('../img/3.png');
+    }
+    30%{
+        background-image: url('../img/4.png');
+    }
+    40%{
+        background-image: url('../img/5.png');
+    }
+    50%{
+        background-image: url('../img/6.png');
+    }
+    60%{
+        background-image: url('../img/7.png');
+    }
+    70%{
+        background-image: url('../img/8.png');
+    }
+    80%{
+        background-image: url('../img/9.png');
+    }
+    90%{
+        background-image: url('../img/10.png');
+    }
+    100%{
+        background-image: url('../img/Book_Animation/11.png');
+    }
+}

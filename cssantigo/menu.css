@@ -1,0 +1,95 @@
+@import url('fontes.css');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+body::-webkit-scrollbar {
+  width:5px; 
+}
+body::-webkit-scrollbar-track {
+  background: #522C18;     
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #AD6E34;   
+  border-radius: 20px; 
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  height: 55px;
+  z-index: 9999;
+  background-color: #522C18;
+  box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.4);
+  font-family: 'Noto Serif Display', serif;
+}
+
+ul {
+  margin-right: 150px;
+  display: flex;
+  list-style: none;
+}
+
+li {
+  font-size: 1.4rem;
+  margin: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #AD6F34;
+}
+
+.logo {
+  font-size: 1.4rem;
+  margin-left: 150px;
+}
+
+.logo-image{
+  display: none;
+}
+.menu-icon {
+  display: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: #AD6F34;
+}
+.menu-dropdown {
+  display: none;
+}
+
+
+@media screen and (max-width: 1200px) {
+  ul {
+    display: none;
+  }
+  .menu-icon{
+    display: block;
+    align-items: right;
+    margin-right: 20px;
+  }
+  .menu-dropdown {
+    display: block;
+    position: relative;
+  }
+
+  .menu-dropdown ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #522C18;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 999;
+  }
+
+  .menu-dropdown:hover ul {
+    display: block;
+  }
+
+}

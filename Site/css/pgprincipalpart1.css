@@ -1,0 +1,92 @@
+.principal {
+    position: relative;
+    width: 100%;
+    margin: 0.5% 0 2% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.globo {
+    display: flex;
+    align-items: center;
+}
+.globo img {
+    max-width: 250px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+}
+.obras {
+    background: url('../Img/fundo.webp');
+    background-size: 100% 100%;
+    height: 930px;
+}
+.retrato {
+    margin-top: 3%;
+    width: 50%;
+    max-width: 975px;
+    height: 50%;
+    max-height: 500px;
+   
+}
+.retrato p{
+    font-size: 26px ;
+    margin: 3px;
+}
+.retrato img {
+    max-width: 100%;
+    width: auto;
+    max-height: 100%;
+    height: auto;
+}
+
+.livros{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1200px;
+}
+.livros img{
+    width: 100%;
+    max-width: 355px;
+    margin: 50px; 
+    justify-content: space-between;
+    /* filter: drop-shadow(3px 3px 3px #f0f0f0); */
+}
+.redacao{
+    display:flex;
+    width: auto;
+    max-width: 100%;
+}
+.redacao img{
+    max-width: 500px;
+    width: auto;
+    max-height: 500px;
+    height: auto;
+    justify-content: center;
+}
+.redacao p{
+    margin-top: 10%;
+    text-align: center;
+}
+#lermais{
+    margin: 3%;
+}
+head{
+   background: url('../img/Retrato2.png'); 
+}
+.contato{
+    height: 100px;
+    background-color: #F5E5D0;
+}
+.inform{
+    text-align: center;
+}
+.inform h2{
+    padding-top: 13px;
+}

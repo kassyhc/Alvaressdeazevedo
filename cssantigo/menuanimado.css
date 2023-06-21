@@ -1,0 +1,61 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.menu {
+  background: #fff;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  top: 15px;
+  right: 25px;
+  cursor: pointer;
+  transition: box-shadow 1.1s cubic-bezier(0.19, 1, 0.22, 1);
+  box-shadow: 0 0 0 0 #fff, 0 0 0 0 #fff;
+}
+.menu:hover {
+    box-shadow: 0 0 0 8px #fff, 0 0 0 8px #fff;
+  }
+input:checked ~ label .menu {
+    box-shadow: 0 0 0 130vw #fff, 0 0 0 130vh #fff;
+  }
+input:checked ~ ul {
+    opacity: 1;
+  }
+  ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    font-size: 45px;
+    opacity: 0;
+    transition: 0.25s 0.1s cubic-bezier(0, 1.07, 0, 1.02);
+    z-index: 2;
+  }
+  
+  a {
+    color: black;
+    display: block;
+    margin-bottom: 1em;
+    text-decoration: none;
+  }
+/* .hamburguer {
+  position: relative;
+  display: block;
+  width: 30px;
+  height: 2px;
+  top: 11px;
+  left: 11px;
+  transition: 0.5s ease-in-out;
+} */
+.hamburguer img{
+    width: 40px;
+    height: 40px;
+}
+
+

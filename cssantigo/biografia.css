@@ -1,0 +1,64 @@
+
+@import url('fontes.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #E6D1A6;
+}
+
+.ds {
+  display: flex;
+  justify-content: center;
+  margin: 2%;
+}
+
+.pai {
+  display: flex;
+  width: 1200px;
+  height: 830px;
+  font-family: 'Playfair';
+  gap: 20px;
+  background-color: #E6D1A6(251, 248, 248);
+}
+.pai img {
+  align-items: center;
+  width: auto;
+  max-width: 450px;
+  height: auto;
+  max-height: 350px;
+}
+h1{
+  margin: 10px;
+}
+ h2 {
+  margin: 10px;
+}
+
+.texto li {
+  font-size: 1.2rem;
+  color: black;
+}
+
+.texto li img {
+  width: 119px;
+  height: 169px;
+  transition: transform 0.7s ease;
+  color: black;
+  filter: drop-shadow(1px 1px 3px black);
+}
+
+.texto li img:hover {
+  filter: drop-shadow(1px 1px 2px black);
+  border-radius: 25px;
+  transform: translateY(-9px);
+}
+
+#evelyn {
+  list-style: none;
+  flex-direction: column;
+  font-size: 1.9rem; 
+}

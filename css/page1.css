@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+:root {
+    --color-neutral-0: #3d2112;
+    --color-neutral-10: #522C18;
+    --color-neutral-30: #a8a29e;
+    --color-neutral-40: #f5f5f5;
+}
+
+.principal {
+    position: relative;
+    width: 100%;
+    margin: 5% 0 2% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.globo {
+    display: flex;
+    align-items: center;
+}
+.globo img {
+    max-width: 350px;
+    max-height: 350px;
+    width: auto;
+    height: auto;
+}
+.retrato-principal {
+    margin-top: 3%;
+    max-width: 975px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conteudo {
+    display: flex;
+    align-items: flex-start;
+}
+
+img {
+    max-width: 50%;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+}
+
+.texto-container {
+    max-width: 50%;
+    padding: 20px;
+    position: relative;
+}
+
+.texto-principal {
+    max-width: 500px;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+    font-size: 19px;
+    margin: 3px;
+    overflow: hidden;
+}
+#lermais {
+    position: absolute;
+    bottom: 10;
+    right: 20px;
+    margin-top: 10px;
+}
+.obras {
+    background: url('../Img/fundo.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 930px;
+    overflow: hidden;
+}
+.livros{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1200px;
+}
+.livros img{
+    width: 100%;
+    max-width: 355px;
+    margin: 35px; 
+    justify-content: space-between;
+    cursor: pointer;
+}
+.livro h1{
+    text-align: center;
+    color: #f5f5f5;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .texto-imagem-container {
+    margin: 150px 0 150px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .imagem {
+    max-width: 400px; 
+    width: auto;
+    margin-right: 20px; 
+  }
+  
+  .texto-container {
+    max-width: 50%;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .texto-container h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .texto-principal {
+    max-width: 400px;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+    font-size: 19px;
+    margin: 3px;
+    overflow: hidden;
+  }
+footer{
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    color: var(--color-neutral-40);
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+#footer-conteudo{
+    background-color: var(--color-neutral-10);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.5rem;
+}
+#contatos h1{
+    margin-bottom: 0.75rem;
+}
+#footer-redes-sociais {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+#footer-redes-sociais .footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: var(--color-neutral-40);
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+#footer-redes-sociais .footer-link:hover {
+    font-size: 1.24rem;
+}
+#footer-redes-sociais .footer-link:hover {
+    opacity: 0.7;
+}
+#Instagram{
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+#GitHub {
+    background-color: green;
+}
+#Linkdin {
+    background-color: #0e76a8;
+}
+.footer-lista{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
+}
+.footer-list .footer-link{
+    color: var(--color-neutral-30);
+    transition: all 0.4s;
+}
+.footer-list .footer-link:hover{
+    color: #7f37c9;
+}
+#footer-Chame_aqui{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+#footer-Chame_aqui  p{
+    color: var(--color-neutral-30);
+}
+#input-grupo{
+    display: flex;
+    align-items: center;
+    background-color: var(--color-neutral-0);
+    border-radius: 4px;
+}
+#input-grupo input{
+    all: unset;
+    padding: 0.75rem;
+    width: 100%;
+}
+#input-grupo button{
+    background-color: #98602D;
+    border: none;
+    color: var(--color-neutral-40);
+    padding: 0px 1.25rem;
+    font-size: 1.125rem;
+    height: 100%;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+}
+#input-grupo button:hover{
+    opacity: 0.8;
+}
+#footer_copyright{
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-neutral-0);
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 100;
+    color:#a39b96;
+}
+@media screen and (max-width: 768px) {
+    #footer-conteudo{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    .livros img{
+        width: auto;
+        max-width: 290px;
+        margin: 30px; 
+    }
+}
+@media screen and (max-width: 426px) {
+    #footer-conteudo{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 3rem 2rem;
+    }
+}
+@media (max-width: 999px){
+    .globo{
+        display: none;
+    }
+    .retrato-principal{
+        margin-top: 9%;
+    }
+    .conteudo {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    img {
+        max-width: 100%;
+        max-height: none;
+    }
+    
+    .texto-container {
+        max-width: 100%;
+        text-align: center;
+        padding: 20px;
+    }
+    #lermais {
+        right: 40%;
+        align-self: center;
+    }
+    .livros img{
+        width: auto;
+        max-width: 350px;
+        margin: 30px; 
+    }
+    .obras{
+        height: 1230px;
+    }
+    .texto-imagem-container{
+        flex-direction: column;
+    }
+    .texto-container{
+        margin: 0 0 20px 0;
+    }
+    #lermais{
+        font-size: 14px;
+    }
+}
